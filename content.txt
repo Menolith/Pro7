@@ -1,3 +1,64 @@
-tänne tulee sivuston suunnittelua ja sisältöä
+// Tänne tulee sivuston suunnittelua ja sisältöä //
 
-PAKOHUONE
+TITLE: PAKOHUONE
+
+ETUSIVU 
+
+MEISTÄ
+
+
+
+
+-------
+
+PAKOHUONEET
+
+HUONE I - HULLU TIEDEMIES 
+(Suositeltu Ikäraja: K12)
+- Hullu tiedemies haluaa muuttaa 
+
+("VARAA AIKA") 
+
+HUONE II - JACK THE RIPPER 
+(Suositeltu Ikäraja: K16)
+- Ratkaise sarjamurhaajan Jack The Ripperin mysteeri...
+
+("VARAA AIKA") 
+
+HUONE III - KUNINKAAN MYRKYTYS 
+(Suositeltu Ikäraja: K7)
+- Näe keskiaika omin silmin ja ratkaise kuka yritti myrkyttää kuninkaan...
+
+("VARAA AIKA") 
+
+-------
+
+HINNAT & VARAA
+
+Varaa aika pakohuoneeseen alta:
+
+Voit tiedustella kahden huoneen tuplavarauksia myös erikseen s-postilla.
+
+Pelin hinta:
+5-6 pelaajaa 22e / hlö
+4 pelaajaa 27e / hlö
+3 pelaajaa 32e / hlö
+2 pelaajaa 36e / hlö
+
+Opiskelijat / Eläkeläiset: -5€ alennus pelaajahinnasta Ale voimassa sunnuntaista torstaihin (ei yhdistettävissä muihin alennuksiin).
+
+("VARAA AIKA") 
+------
+
+YHTEYSTIEDOT
+
+Pakohuoneenkatu 12
++358 2565 282 28
+varaa@pakohuone.fi
+
+AUKIOLOAJAT
+
+MA - PE 15.00-21.00
+LA - SU 14.00-22.00
+
+-------
