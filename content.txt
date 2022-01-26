@@ -4,51 +4,68 @@ TITLE: PAKOHUONE
 
 ETUSIVU - HUONEET - YHTEYSTIEDT - AUKIOLOAJAT - MEISTÄ
 
-ETUSIVU 
+ETUSIVU
 
-HASSU KUVA TAUSTALLE JA LOGO? 
+HASSU KUVA TAUSTALLE JA LOGO?
 
 (KATSO HUONEET TÄSTÄ) (VARAA AIKASI)
 
 
 MEISTÄ
 
-Pakohuone eli "Escape Room" on tosielämän interaktiivinen pakopeli. 
-Pakohuoneemme Turun sydämmessä tarjoavat mullistavan ja todellisen pelikokemuksen, jossa ryhmäsi tavoite on ratkaisa pakopeli tunnin kuluessa.
-Pakohuoneemme teemat vaihtelevat vuosittain ja huoneita löytyy myös perheen pienimmille.  
+Pakohuone eli "Escape Room" on tosielämän interaktiivinen pakopeli.
+Pakohuoneemme Turun sydämmessä tarjoavat mullistavan ja todellisen pelikokemuksen, jossa ryhmäsi tavoite on ratkaista pakopeli tunnin kuluessa.
+Pakohuoneemme teemat vaihtelevat vuosittain ja huoneita löytyy myös perheen pienimmille.
 
 Täydellinen paketti illanviettoon, tyky-päivään, pikkujouluihin, opiskelijarientoihin tai palauttavaan sunnuntaihin.
 
 Oletko valmis haasteeseen?
 
-(KATSO HUONEET TÄSTÄ) 
+(KATSO HUONEET TÄSTÄ)
 -------
 
 PAKOHUONEET
 
-HUONE I - HULLU TIEDEMIES 
+HUONE I - HULLU TIEDEMIES
 (Suositeltu Ikäraja: K12)
 - Hullu tiedemies haluaa muuttaa...
 Pelikieli: Suomi, Englanti
 Pakoaika: 60 minuuttia
+[https://www.pexels.com/photo/empty-hallway-with-lights-turned-on-1236044/]
 
-("VARAA AIKA") 
+("VARAA AIKA")
 
-HUONE II - JACK THE RIPPER 
+HUONE II - JACK THE RIPPER
 (Suositeltu Ikäraja: K16)
-- Ratkaise sarjamurhaajan Jack The Ripperin mysteeri...
+- Viktoriaaninen Lontoo, savusumuiset kadut, ja kirkaisu yössä. Viiltäjä-Jack on liikkeellä, ja koko Lontoo nukkuu levottomasti. Kuka on tämä Jack, ja miten hän liikkuu sumussa kuten haamu? Lopullinen vastaus tähän kaikkeen löytyy vain hänen omalta reviiriltään, ja ryhmällänne on rajattu määrä aikaa saattaa kaikki tämä päivän valoon ennen kuin Jack löytää seuraavan uhrinsa... tai seuraavat uhrinsa.
+
+- Victorian London, smog-choked streets and a scream in the night. Jack the Ripper is on the move, and the entire London sleeps uneasily. Who is this Jack, and how can he move in the fog like a wraith? The final solution to all this can be found only in his own territory, and your group has a limited amount of time to bring it all to light before Jack finds his next victim... or victims.
+
 Pelikieli: Suomi, Englanti
 Pakoaika: 60 minuuttia
+[https://www.pexels.com/photo/grayscale-photo-of-staircase-near-window-10193555/]
 
-("VARAA AIKA") 
+("VARAA AIKA")
 
-HUONE III - KUNINKAAN MYRKYTYS 
+HUONE III - KUNINKAAN MYRKYTYS
 (Suositeltu Ikäraja: K7)
 - Näe keskiaika omin silmin ja ratkaise kuka yritti myrkyttää kuninkaan...
 Pelikieli: Suomi, Englanti, Old Norse
 Pakoaika: 60 minuuttia
 
-("VARAA AIKA") 
+("VARAA AIKA")
+
+HUONE IV - NOIDAN KIROUS
+(Suositeltu Ikäraja: K16)
+- Seurueesi eksyi patikkaretkellä metsässä, jonka piti kartan mukaan olla paljon pienempi. Kaikeksi onneksi löysitte yöpymiseen kelpaavan erämökin, mutta yöunenne keskeytyivät kellon lyödessä keskiyötä, kun havahduitte pahaenteiseen kavahdukseen: noidan kirous on langetetty. Ryhmällänne on vain tunti aikaa löytää oikea rituaali kirouksen purkamiseen ennen kuin paholaisen tunti on ohi, ja ainoan avustuksena tähän on mökistä löytyvä kryptinen manuskripti...
+
+- Your hiking group got lost in a forest which the map claimed was far smaller than it seemed to be. Luckily, you found an abandoned hut to stay the night in, but a good night's rest was not to come: when the witching hour struck at midnight, everyone in the hut was awoken with an ominous chill of a curse taking hold. You have only until the end of the witching hour to find a way of undoing the curse, and the only help you can find seems to be a cryptic manuscript found lying in the hut...
+
+Pelikieli: Suomi, Englanti
+Pakoaika: 60 minuuttia
+[https://www.pexels.com/photo/food-wood-dark-texture-6998566/]
+
+("VARAA AIKA")
 
 -------
 
@@ -56,7 +73,7 @@ HINNAT & VARAA
 
 Varaa aika pakohuoneeseen alta:
 
-Voit tiedustella kahden huoneen tuplavarauksia myös erikseen s-postilla.
+Voit tiedustella kahden huoneen tuplavarauksia myös erikseen sähköpostilla.
 
 Pelin hinta:
 5-6 pelaajaa 22e / hlö
@@ -66,17 +83,17 @@ Pelin hinta:
 
 Opiskelijat / Eläkeläiset: -5€ alennus pelaajahinnasta Ale voimassa sunnuntaista torstaihin (ei yhdistettävissä muihin alennuksiin).
 
-("VARAA AIKA") 
+("VARAA AIKA")
 
->> VARAUS LOMAKKEELLA 
+>> VARAUS LOMAKKEELLA
 
-AJANVARAUS FORM
+AJANVARAUSLOMAKE
 -- NIMI
 -- SÄHKÖPOSTI
 -- PUHELINNUMERO
 -- VIESTI (KERRO PELAAJIEN MÄÄRÄ JA HUONEEN NIMI, OLEMME TEIHIN YHTEYDESSÄ 48H KULUTTUA)
-(LÄHETÄ) 
- 
+(LÄHETÄ)
+
 ------
 
 YHTEYSTIEDOT
