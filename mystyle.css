@@ -19,7 +19,7 @@
     font-size: 24px;
     color:rgba(219, 100, 3, 0.842);
 }
-body {
+body {+
     background: rgb(8,3,0);
     background: linear-gradient(180deg, rgba(8,3,0,1) 0%, rgba(41,23,14,1) 10%, rgba(68,39,26,1) 20%);
     background-color: #44271a;
@@ -43,6 +43,16 @@ h2 {
     color:rgba(231, 216, 213, 0.808);
     font-variant: small-caps;
     text-shadow: 0px 0px 3px rgba(8, 5, 3, 0.945)
+}
+h3 { /* ADDED H3 */
+    text-align: center;
+    font-size: 28px;
+    font-family: 'Libre Baskerville', 'Courier New', sans-serif;
+    font-weight: normal !important;
+    color:rgba(219, 100, 3, 0.842);
+    font-variant: small-caps;
+    text-shadow: 0px 0px 3px rgba(8, 5, 3, 0.945);
+    opacity: 80%;
 }
 a{
     color:rgba(219, 100, 3, 0.842);
@@ -76,4 +86,32 @@ u {
 ::-webkit-scrollbar-thumb {
     background: #270902d7;
     opacity: 0.8px;
+  }
+.button { /* BUTTON CSS */
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: none;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    opacity: 1;
+}
+.tiedemies {  /* MUOKKAA KUVAN OPACITY */
+    background: url(tiedemies.jpg) no-repeat center fixed;
+    background-size: cover;
+    background-blend-mode:overlay;
+    opacity: 100%;
+  }
+.jack {  /* MUOKKAA KUVAN OPACITY */
+    background: url(jack.jpg) no-repeat center fixed;
+    background-size: cover;
+    background-blend-mode:overlay;
+    opacity: 100%;
   }
