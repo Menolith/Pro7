@@ -1,29 +1,28 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>PAKOHUONE</title>
+    <title>PAKOHUONE - Etusivu</title>
     <link rel="stylesheet" href="mystyle.css"></link>
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <style>
     @import url('https://fonts.googleapis.com/css2?family=Emilys+Candy&display=swap');
     @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
-    html {
-        scroll-behavior: smooth;
-    }
+    @import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
     </style>
 </head>
 <header>
     <h1>PAKOHUONE</h1>
 </header>
 <body>
-    <nav class="topnav">
-        <a class="active" href="etusivu">Etusivu</a>
-        <a href="pakohuoneet">Pakohuoneet</a>
-        <a href="yhteystiedot">Yhteystiedot</a>
-        <a href="aukioloajat">Aukioloajat</a>
-        <a href="meistä">Meistä</a>
-    </nav>
-    <h2>Lorem Ipsum Dolor</h2>
+    <div id="navbar" class="navbar">
+        <a class="active" href="index.html">Etusivu</a>
+        <a href="huoneet.html">Pakohuoneet</a>
+        <a href="Yhteystiedot.html">Yhteystiedot</a>
+        <a href="aukioloajat.html">Aukioloajat</a>
+        <a href="meista.html">Meistä</a>
+    </div>
+    <div class="content"> 
+        <h2>Lorem Ipsum Dolor</h2>
     <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque velit elit, maximus quis dictum non, convallis eget nisi. Donec nulla tortor, interdum et dui in, lacinia gravida magna. Integer fermentum justo vel tortor varius, ac ultrices quam bibendum. Aliquam vestibulum, nibh rhoncus viverra consectetur, nisi felis iaculis ligula, id lobortis nulla mauris eu dui. Quisque sed odio blandit, fringilla mauris ullamcorper, dignissim erat. Duis consequat placerat orci, a facilisis tortor tincidunt quis. Nullam luctus et odio tempor vulputate. Duis scelerisque est neque, sed ullamcorper eros ullamcorper ac. Ut a arcu urna. Phasellus quis urna in ligula finibus sollicitudin. Suspendisse suscipit bibendum mi ac molestie. Ut sagittis aliquam metus, vel elementum nisi sodales nec. Curabitur aliquet eget erat in iaculis. Morbi sodales, est ut iaculis dignissim, enim nisi tempus risus, nec suscipit elit ligula eu risus. Mauris cursus, lectus quis dignissim congue, massa sapien convallis nisi, non fringilla lorem arcu quis odio. Vestibulum et fringilla neque.</p>
 
         <p>Integer sit amet ante vitae ligula suscipit lobortis. Nunc sollicitudin imperdiet sem. Duis volutpat molestie risus, vitae commodo quam eleifend sit amet. Etiam varius dui at nisl laoreet, eget placerat tortor efficitur. Mauris est nisl, condimentum in sem non, lacinia accumsan odio. Phasellus laoreet, sem sit amet vulputate sollicitudin, nibh purus auctor odio, non pretium arcu nulla in nunc. Donec viverra risus eu ante iaculis, pharetra ullamcorper nibh pretium.</p>
@@ -33,5 +32,20 @@
         <p>Aliquam vel fringilla felis. Donec pharetra, felis et ornare tempor, libero elit tincidunt ante, id elementum augue ligula non risus. Quisque viverra ullamcorper metus sed tincidunt. Integer vel tincidunt leo. Cras lacinia felis a dictum rutrum. Donec ultrices porta orci, vitae porttitor ligula molestie vitae. Proin laoreet rutrum neque ac feugiat. Sed id malesuada urna, vitae imperdiet enim. Sed lectus quam, ultrices sed lorem non, hendrerit gravida magna. Phasellus libero ex, faucibus interdum metus quis, congue bibendum orci.</p>
         
         <p>Fusce placerat scelerisque magna, a tincidunt purus. Etiam accumsan eu nunc sagittis aliquet. Ut vel ex lectus. Cras eget tortor porta, sagittis leo eu, dictum lectus. Cras vitae libero vitae ante efficitur congue et id leo. Suspendisse sit amet accumsan odio, vitae pulvinar eros. Aliquam pharetra, ipsum ut tempor volutpat, metus nisi aliquet tellus, volutpat aliquet ligula augue vehicula leo.</p>
+    </div>
+        <script>
+        window.onscroll = function() {stickyNav()}; //tässä kutsutaan funktiota silloin, kun käyttäjä alkaa scrollaamaan sivua
+        
+        var navbar = document.getElementById("navbar"); // asetetaan muuttuja "navbar" muokattava elementti hakemalla sitä sen id:llä
+        var sticky = navbar.offsetTop; // asetetaan muuttuja "sticky" sille korkeudelle, kun sivun scroll on navbar-elementin kohdalla
+        
+        function stickyNav() {
+          if (window.pageYOffset >= sticky) { // JOS käyttäjä on scrollannut navbar-elementin kohdalle tai yli
+            navbar.classList.add("sticky") // lisätään navbar-elementille myös class="sticky"
+          } else { // JOS ylläoleva JOS kriteeri ei ole täyttynyt
+            navbar.classList.remove("sticky"); // poistetaan navbar-elementiltä class="sticky"
+          }
+        }
+      </script>
 </body>
 </html>

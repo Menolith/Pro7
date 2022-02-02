@@ -1,0 +1,68 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>PAKOHUONE - Yhteystiedon - Ota meihin yhteyttä autamme mielellämme</title>
+    <link rel="stylesheet" href="mystyle.css"></link>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+     <style>
+    @import url('https://fonts.googleapis.com/css2?family=Emilys+Candy&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+    </style>
+</head>
+<header>
+    <h1>PAKOHUONE</h1>
+</header>
+<body>
+    <div id="navbar" class="navbar">
+        <a href="https://menolith.github.io/Pro7/">Etusivu</a>
+        <a href="huoneet.html">Pakohuoneet</a>
+        <a class="active" href="Yhteystiedot.html">Yhteystiedot</a>
+        <a href="aukioloajat.html">Aukioloajat</a>
+        <a href="meistä.html">Meistä</a>
+    </div>
+    
+            <div>
+                <h2 class="text-center">Yhteystiedot</h2>
+                <p class="text-center">Ota meihin yhteyttä, autamme mielellämme</p>
+            </div>
+
+
+                <div class="col-sm-6 col-md-4 col-lg-4 offset-lg-0 item"><a href="#"></a><iframe allowfullscreen frameborder="0" src="https://cdn.bootstrapstudio.io/placeholders/map.html" width="100%" height="200"></iframe>
+                    <section class="map-clean">
+                        <div class="container">
+                            <div class="intro"></div>
+                        </div>
+
+                    </section>
+                    <h3 class="text-center name">Yhteystiedot</h3>
+                    <p class="text-start description" style="width: 296px;margin: 8px;">Osoite: Puutarhakatu 2A14 20210 Turku<br />email: Pakohuone@gmail.com<br />Puh: 0405427684</p><a class="action" href="#"></a>
+                </div>
+                <div class="col-sm-6 col-md-4 item"><a href="#"><img class="img-fluid" src="building.jpg" /></a>
+                    <h3 class="name">Aukioloajat</h3>
+                    <p class="text-center description">Ma - To:  12 - 20<br />Pe - La: 12 - 22<br />Su: Suljettu</p><a class="action" href="#"></a>
+                </div>
+                <div class="col-sm-6 col-md-4 item"><a href="#"><img class="img-fluid" src="loft.jpg" /></a>
+                    <h3 class="name">Varauskalenteri</h3>
+                    <p class="text-center description">Haluatko tehdä varauksen?<br />Katso vapaat huoneet ja ajat täältä:</p><a class="action" href="#"></a><button class="btn btn-primary" type="button">Varauskalenteri</button>
+                </div>
+            </div>
+        </div>
+    </section>
+ <script>
+        window.onscroll = function() {stickyNav()}; //tässä kutsutaan funktiota silloin, kun käyttäjä alkaa scrollaamaan sivua
+        
+        var navbar = document.getElementById("navbar"); // asetetaan muuttuja "navbar" muokattava elementti hakemalla sitä sen id:llä
+        var sticky = navbar.offsetTop; // asetetaan muuttuja "sticky" sille korkeudelle, kun sivun scroll on navbar-elementin kohdalla
+        
+        function stickyNav() {
+          if (window.pageYOffset >= sticky) { // JOS käyttäjä on scrollannut navbar-elementin kohdalle tai yli
+            navbar.classList.add("sticky") // lisätään navbar-elementille myös class="sticky"
+          } else { // JOS ylläoleva JOS kriteeri ei ole täyttynyt
+            navbar.classList.remove("sticky"); // poistetaan navbar-elementiltä class="sticky"
+          }
+        }
+      </script>
+
+</body>
+</html>
