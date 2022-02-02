@@ -40,6 +40,7 @@ p {text-align: center;
     <link rel="stylesheet" href="mystyle.css"></link>
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <style>
+    @import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap'); 
     @import url('https://fonts.googleapis.com/css2?family=Emilys+Candy&display=swap');
     @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
     html {
@@ -51,13 +52,13 @@ p {text-align: center;
     <h1>PAKOHUONEET</h1>
 </header>
 <body>
-    <nav class="topnav">
+    <div id="navbar" class="navbar">
         <a href="index.html">Etusivu</a>
         <a class="active" a href="huoneet.html">Pakohuoneet</a>
         <a href="Yhteystiedot.html">Yhteystiedot</a>
         <a href="aukioloajat.html">Aukioloajat</a>
         <a href="meistä.html">Meistä</a>
-    </nav>
+    </div>
     <h2>PAKOHUONEET</h2>
     <p>Pakohuoneemme teemat vaihtelevat vuosittain ja huoneita löytyy myös perheen pienimmille. Valitse oma seikkailusi neljästä huoneestamme!</p>
     <br>
@@ -110,5 +111,19 @@ p {text-align: center;
                     <div class="wrapper"><button type="button" class=button><a href="yhteystiedot.html"><b>VARAA AIKA</b></a></button></div>
                     <br>
     </div>
+     <script>
+        window.onscroll = function() {stickyNav()}; //tässä kutsutaan funktiota silloin, kun käyttäjä alkaa scrollaamaan sivua
+        
+        var navbar = document.getElementById("navbar"); // asetetaan muuttuja "navbar" muokattava elementti hakemalla sitä sen id:llä
+        var sticky = navbar.offsetTop; // asetetaan muuttuja "sticky" sille korkeudelle, kun sivun scroll on navbar-elementin kohdalla
+        
+        function stickyNav() {
+          if (window.pageYOffset >= sticky) { // JOS käyttäjä on scrollannut navbar-elementin kohdalle tai yli
+            navbar.classList.add("sticky") // lisätään navbar-elementille myös class="sticky"
+          } else { // JOS ylläoleva JOS kriteeri ei ole täyttynyt
+            navbar.classList.remove("sticky"); // poistetaan navbar-elementiltä class="sticky"
+          }
+        }
+      </script>
 </body>
 </html>

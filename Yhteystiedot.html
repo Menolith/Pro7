@@ -7,6 +7,7 @@
      <style>
     @import url('https://fonts.googleapis.com/css2?family=Emilys+Candy&display=swap');
     @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
     html {
         scroll-behavior: smooth;
     }
@@ -16,13 +17,13 @@
     <h1>PAKOHUONE</h1>
 </header>
 <body>
-    <nav class="topnav">
+    <div id="navbar" class="navbar">
         <a class="active" href="https://menolith.github.io/Pro7/">Etusivu</a>
         <a href="huoneet.html">Pakohuoneet</a>
         <a href="Yhteystiedot.html">Yhteystiedot</a>
         <a href="aukioloajat">Aukioloajat</a>
         <a href="meistä">Meistä</a>
-    </nav>
+    </div>
     
             <div>
                 <h2 class="text-center">Yhteystiedot</h2>
@@ -51,6 +52,20 @@
             </div>
         </div>
     </section>
+ <script>
+        window.onscroll = function() {stickyNav()}; //tässä kutsutaan funktiota silloin, kun käyttäjä alkaa scrollaamaan sivua
+        
+        var navbar = document.getElementById("navbar"); // asetetaan muuttuja "navbar" muokattava elementti hakemalla sitä sen id:llä
+        var sticky = navbar.offsetTop; // asetetaan muuttuja "sticky" sille korkeudelle, kun sivun scroll on navbar-elementin kohdalla
+        
+        function stickyNav() {
+          if (window.pageYOffset >= sticky) { // JOS käyttäjä on scrollannut navbar-elementin kohdalle tai yli
+            navbar.classList.add("sticky") // lisätään navbar-elementille myös class="sticky"
+          } else { // JOS ylläoleva JOS kriteeri ei ole täyttynyt
+            navbar.classList.remove("sticky"); // poistetaan navbar-elementiltä class="sticky"
+          }
+        }
+      </script>
 
 </body>
 </html>
