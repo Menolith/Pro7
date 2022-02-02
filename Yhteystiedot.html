@@ -8,6 +8,11 @@
     @import url('https://fonts.googleapis.com/css2?family=Emilys+Candy&display=swap');
     @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
     @import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+    .form {
+        margin: auto;
+        width: 50%;
+        padding: 10px;
+    }
     </style>
 </head>
 <header>
@@ -43,8 +48,19 @@
                     <p class="text-center description">Ma - To:  12 - 20<br />Pe - La: 12 - 22<br />Su: Suljettu</p><a class="action" href="#"></a>
                 </div>
                 <div class="col-sm-6 col-md-4 item"><a href="#"><img class="img-fluid" src="loft.jpg" /></a>
-                    <h3 class="name">Varauskalenteri</h3>
-                    <p class="text-center description">Haluatko tehdä varauksen?<br />Katso vapaat huoneet ja ajat täältä:</p><a class="action" href="#"></a><button class="btn btn-primary" type="button">Varauskalenteri</button>
+                    <h3 class="name">Yhteydenotto</h3>
+                    <p class="text-center description">Haluatko ottaa yhteyttä tai lähettää palautetta?<br />Ota meihin yhteyttä allaolevalla kaavakkeella.</p><a class="action" href="#"></a>
+                    <div class="form">
+                      <form>
+                          <label for="name">Nimesi:</label><br>
+                          <input type="text" id="name" name="name"><br>
+                          <label for="email">Sähköposti:</label><br>
+                          <input type="email" id="email" name="email"><br>
+                          <label for="message">Viesti:</label><br>
+                          <textarea type="text" id="message" name="message" rows="15" cols="50">Message here</textarea><br>
+                          <input type="submit" value="Submit">
+                      </form>
+                    </div>
                 </div>
             </div>
         </div>
@@ -59,7 +75,7 @@
           if (window.pageYOffset >= sticky) { // JOS käyttäjä on scrollannut navbar-elementin kohdalle tai yli
             navbar.classList.add("sticky") // lisätään navbar-elementille myös class="sticky"
           } else { // JOS ylläoleva JOS kriteeri ei ole täyttynyt
-            navbar.classList.remove("sticky"); // poistetaan navbar-elementiltä class="sticky"
+//            navbar.classList.remove("sticky"); // poistetaan navbar-elementiltä class="sticky"
           }
         }
       </script>
