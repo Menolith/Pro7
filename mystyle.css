@@ -120,3 +120,11 @@ u {
     margin: 4px 2px;
     border-radius: 12px;
   }
+  form {
+    text-align: center;
+  }
+  textarea {
+    float: left;
+    width: 100%;
+    height: auto;
+}
