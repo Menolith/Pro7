@@ -40,12 +40,16 @@ html {
     padding-top: 85px;
 }
 
-body {+
+body {
     background: rgb(8,3,0);
     background: linear-gradient(180deg, rgba(8,3,0,1) 0%, rgba(41,23,14,1) 10%, rgba(68,39,26,1) 20%);
     background-color: #44271a;
     padding-top: 1%;
     color:rgba(228, 219, 211, 0.856);
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+
 }
 h1 {
     text-align: center;
@@ -127,4 +131,47 @@ u {
     float: left;
     width: 100%;
     height: auto;
+}
+.footer {
+    padding: 15px 0;
+    background-color: rgba(20, 18, 18, 0.712);
+    margin-top: auto;
+}
+.footer .social {
+    text-align: center;
+    padding-bottom: 20px;
+    color: white;
+}
+.footer .social a {
+    font-size: 24px;
+    color: white;  
+    margin: 0 23px;
+}   
+.footer ul {
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align: center;
+}
+.footer ul li a {
+    color: white;
+    text-decoration: none;
+    opacity: 0.7;
+    margin: 0 18px;
+}
+.footer ul li {
+    display: inline-block;
+    padding: 0 15px;
+}
+.footer .copyright {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    opacity: 0.5;
+    letter-spacing: 1.2px;
 }
