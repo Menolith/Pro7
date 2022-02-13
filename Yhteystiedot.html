@@ -17,22 +17,45 @@
     </style>
 </head>
 <header>
-    <h1>PAKOHUONE</h1>
+  <div class=logo >
+    <a href="index.html">
+    <img src="images/logo.png" alt="pakohuone logo"></a>
+    <br><br><br>
 </header>
 <body>
     <div id="navbar" class="navbar">
-        <a href="https://menolith.github.io/Pro7/">Etusivu</a>
+        <a href="index.html">Etusivu</a>
         <a href="huoneet.html">Pakohuoneet</a>
         <a class="active" href="Yhteystiedot.html">Yhteystiedot</a>
         <a href="Aukioloajat.html">Aukioloajat</a>
     </div>
-    
-    <div>
+    <h2>Yhteystiedot</h2>
+    <p align="center">Osoite: <b>Puutarhakatu 2A14 20210 Turku</b></p>
+    <p align="center">Puh: <b>+358 50 2842911</b></p>
+    <p align="center">Sähköposti: <b>posti@pakohuone.fi</b></p>
+    <div class="content">
+
+      <h2>Varaa pakohuone</h2>
+          <p align="center">Haluatko ottaa yhteyttä tai varata pakohuoneen?<br />Ota meihin yhteyttä allaolevalla kaavakkeella.</p><a class="action" href="#"></a>
+  <div class="form">
+      <form>
+          <label for="name">Nimesi:</label><br>
+          <input type="text" id="name" name="name" placeholder="Nimesi"><br>
+          <label for="email">Sähköposti:</label><br>
+          <input type="email" id="email" name="email" placeholder="Sähköpostisi"><br>
+          <label for="email">Puhelin:</label><br>
+          <input type="email" id="email" name="email" placeholder="Puhelinnumero"><br>
+          <label for="number">Pelaajien määrä:</label><br>
+          <input type="number" id="number" name="number" placeholder="Osallistujien määrä"><br>
+          <label for="message">Viesti:</label><br>
+          <textarea type="text" id="message" name="message" rows="15" cols="50" placeholder="Jos varaat ajan muista ilmoittaa valitsemasi huone, päivämäärä ja nimesi. Olemme yhteydessä sinuun ajanvarauksesta."></textarea><br>
+          <input type="submit" value="Submit">
+          </form>
+      </div>
+  </div><div>
         <h2 class="content">Henkilöstö</h2>
         <p align="center">Henkilöstömme ja heidän yhteystiedot</p>
     </div>
-
-
     <div class="col-sm-6 col-md-4 col-lg-4 offset-lg-0 item"><a href="#"></a>
         <p align="center">Siru Suhanen: Perustaja SiruS@pakohuone.fi</p>
         <p align="center">Evren Nurmoranta: Escape Room artist EvrenN@pakohuone.fi</p>
@@ -41,21 +64,6 @@
         <p align="center">Jens Matilainen: Kirjanpito ja escape management JensM@pakohuone.fi</p>
     </div>
     
-    <div class="content">
-        <h2>Yhteydenotto</h2>
-            <p align="center">Haluatko ottaa yhteyttä tai lähettää palautetta?<br />Ota meihin yhteyttä allaolevalla kaavakkeella.</p><a class="action" href="#"></a>
-    <div class="form">
-        <form>
-            <label for="name">Nimesi:</label><br>
-            <input type="text" id="name" name="name" placeholder="Nimesi"><br>
-            <label for="email">Sähköposti:</label><br>
-            <input type="email" id="email" name="email" placeholder="Sähköpostisi"><br>
-            <label for="message">Viesti:</label><br>
-            <textarea type="text" id="message" name="message" rows="15" cols="50" placeholder="Jos varaat ajan muista ilmoittaa valitsemasi huone, päivämäärä ja nimesi. Olemme yhteydessä sinuun ajanvarauksesta."></textarea><br>
-            <input type="submit" value="Submit">
-            </form>
-        </div>
-    </div>
     </section>
      <script>
         window.onscroll = function() {stickyNav()}; //tässä kutsutaan funktiota silloin, kun käyttäjä alkaa scrollaamaan sivua
@@ -94,7 +102,7 @@
         <a href="Yhteystiedot.html">Ota yhteyttä</a>
       </li>
     </ul>
-  <p class="copyright"> Pakohuone @ 2022 </p>
+  <p class="copyright"> Pakohuone @ 2022 - Puutarhakatu 2A14 20210 Turku </p>
 </section>
   
 
