@@ -1,7 +1,6 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>PAKOHUONE</title>
     <link rel="stylesheet" href="mystyle.css"></link>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
@@ -12,14 +11,20 @@
     html {
         scroll-behavior: smooth;
     }
+    .wrapper {
+text-align: center;
+    }
     </style>
 </head>
 <header>
-    <h1>PAKOHUONE</h1>
+  <div class=logo >
+    <a href="index.html">
+    <img src="images/logo.png" alt="pakohuone logo"></a>
+    <br><br><br>
 </header>
 <body>
     <div id="navbar" class="navbar">
-        <a href="https://menolith.github.io/Pro7/">Etusivu</a>
+        <a href="index.html">Etusivu</a>
         <a href="huoneet.html">Pakohuoneet</a>
         <a href="Yhteystiedot.html">Yhteystiedot</a>
         <a class="active" href="Aukioloajat.html">Aukioloajat</a>
@@ -28,10 +33,14 @@
     <div>
         <h2 class="content">Aukioloajat</h2>    
     </div>
-
     <div>
         <p align="center"> MA - PE 15.00-21.00 </p>
-        <p align="center"> LA - SU 14.00-22.00 </p>            
+        <p align="center"> LA - SU 14.00-22.00 </p>  
+        <p align="center"> Osoite: Puutarhakatu 2A14 20210 Turku</p>  
+        
+        <div class="wrapper"><button type="button" class=button><a href="Yhteystiedot.html"><b>VARAA AIKASI</b></a></button></div>
+        <br>
+        
     </div>       
 
  <section class="footer">
@@ -56,7 +65,7 @@
             <a href="Yhteystiedot.html">Ota yhteyttä</a>
           </li>
         </ul>
-      <p class="copyright"> Pakohuone @ 2022 </p>
+      <p class="copyright"> Pakohuone @ 2022 - Puutarhakatu 2A14 20210 Turku</p>
  </section>
       
 </body>
