@@ -1,0 +1,251 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>PAKOHUONE - Front Page</title>
+    <link rel="stylesheet" href="mystyle.css"></link>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+     <style>
+    @import url('https://fonts.googleapis.com/css2?family=Emilys+Candy&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+    * {box-sizing:border-box}
+
+    .wrapper {
+      text-align: center;
+    }
+    p {text-align: center;
+        }
+/* Slideshow container */
+.slideshow-container {
+  max-width: full;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.dactive, .dot:hover {
+  background-color: rgba(231, 90, 24, 0.925);
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+    </style>
+</head>
+<header>
+  <div class=logo >
+    <a href="index_en.html">
+    <img src="images/logo.png" alt="pakohuone logo"></a>
+    <div style='float: right; position: absolute; top: 0px; right: 0px' class="wrapper"><button type="button" class=button><a href="index.html"><b>Suomeksi 🇫🇮</b></a></button></div>
+    <br><br><br>
+</header>
+<body>
+    <div id="navbar" class="navbar">
+        <a class="active" href="index_en.html">Front Page</a>
+        <a href="huoneet_en.html">Escape Rooms</a>
+        <a href="Yhteystiedot_en.html">Contact Us</a>
+        <a href="Aukioloajat_en.html">Opening Hours</a>
+    </div>
+
+ <!-- Slideshow container -->
+ <div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="images/kuva1.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="images/kuva2.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="images/kuva3.jpg" style="width:100%">
+  </div>
+  <br>
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div> 
+
+      <div class="content"> 
+        <h2>About Us</h2>
+        <p><b>An escape room is an interactive real-life escape game.</b>
+          Our escape rooms in the heart of Turku offer a novel and real game experience, where the goal of your group is to solve the game and escape the room before the hour is up.<br>
+       The themes of our escape rooms change annually, and we have suitable experiences for the children as well.
+          <br>
+          The perfect package for spending an evening, a team-building event, a Finnish "Little Christmas," student events or just a revitalizing Sunday.
+          <br><br>
+        <b>Are you up to the challenge??</b></p>
+
+    <div class="wrapper"><button type="button" class=button><a href="huoneet_en.html"><b>SEE OUR ROOMS</b></a></button></div>
+        
+          <p><b>Pakohuone Oy has a longstanding history of operating as a genuine Finnish escape room experience since 2022.</b> Our escape rooms are the best. Really. Literally. I mean it. We can prove it. Mathematically. Be on the right side of science. Book a room. <br>With us, you'll find an expert personnel and an exciting escape room experience. The majority of our rooms are designed for people over the age of 16, but we also have options for younger participants.<br><br><b>Please, do contact us and see our available rooms in the link above.</b> </p>
+        
+    </div>
+        <script>
+        window.onscroll = function() {stickyNav()}; //tässä kutsutaan funktiota silloin, kun käyttäjä alkaa scrollaamaan sivua
+        
+        var navbar = document.getElementById("navbar"); // asetetaan muuttuja "navbar" muokattava elementti hakemalla sitä sen id:llä
+        var sticky = navbar.offsetTop; // asetetaan muuttuja "sticky" sille korkeudelle, kun sivun scroll on navbar-elementin kohdalla
+        
+        function stickyNav() {
+          if (window.pageYOffset >= sticky) { // JOS käyttäjä on scrollannut navbar-elementin kohdalle tai yli
+            navbar.classList.add("sticky") // lisätään navbar-elementille myös class="sticky"
+          } else { // JOS ylläoleva JOS kriteeri ei ole täyttynyt
+            navbar.classList.remove("sticky"); // poistetaan navbar-elementiltä class="sticky"
+          }
+        }
+      </script>
+      <!--- Footer section --->
+<section class="footer">
+  <div class="social">  
+    <a href = "#"><i class="fab fa-instagram"></i></a>
+    <a href = "#"><i class="fab fa-snapchat"></i></a>
+    <a href = "#"><i class="fab fa-twitter"></i></a>
+    <a href = "#"><i class="fab fa-facebook-f"></i></a>
+  </div>
+
+  <ul class="list">
+    <li>
+      <a href="index_en.html">Front Page</a>
+    </li>
+    <li>
+      <a href="huoneet_en.html">Escape Rooms</a>
+    </li>
+    <li>
+      <a href="Aukioloajat_en.html">Opening Hours</a>
+    </li>
+    <li>
+      <a href="Yhteystiedot_en.html">Contact Us</a>
+    </li>
+  </ul>
+<p class="copyright"> Pakohuone @ 2022 - Puutarhakatu 2A14 20210 Turku </p>
+</section>
+<!--- Javascript for image slider --->
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" dactive", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " dactive";
+} 
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 10000); // Change image every X seconds
+} 
+  </script>
+
+</body>
+</html>
